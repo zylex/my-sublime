@@ -1,0 +1,18 @@
+{
+    "cmd": ["cmake", "-DCMAKE_BUILD_TYPE=Debug", ".."],
+    "working_dir": "$project_path/build",
+
+    "variants": [
+
+        {
+            "name": "Make",
+            "cmd": "make"
+        },
+
+        {
+            "name": "Run",
+            "cmd": "./$project_base_name"
+        }
+
+    ]
+}
