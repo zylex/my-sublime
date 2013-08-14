@@ -1,5 +1,6 @@
 [
 	{ "keys": ["ctrl+shift+s"], "command": "save_all" },
-    { "keys": ["ctrl+shift+b"], "command": "build", "args": {"variant": "Make"} },
+    { "keys": ["ctrl+b"], "command": "build", "args": {"variant": "Make"} },
+    { "keys": ["ctrl+shift+b"], "command": "build"},
     { "keys": ["ctrl+shift+r"], "command": "build", "args": {"variant": "Run"} }
 ]
